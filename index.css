@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #eec0c6;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+}
+main {
+  position: relative;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+.button {
+  text-decoration: none;
+}
+.centered {
+  justify-content: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.my-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.img2 {
+  width: 34px;
+  height: 34px;
+}
