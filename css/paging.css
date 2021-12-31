@@ -1,0 +1,11 @@
+.tabbar:not(.js) .tabbar-content > .tabbar-page:target ~ .tabbar-page:last-child,
+.tabbar:not(.js) .tabbar-content > .tabbar-page {display: none;}
+.tabbar:not(.js) .tabbar-content > :last-child,
+.tabbar:not(.js) .tabbar-content > .tabbar-page:target {display: block;}
+.tabbar.js .tabbar-page:not(.paginationActive) {display: none;}
+.tabbar.js .tabbar-page.paginationActive {display: block;}
+.tabbar.js .tabbar-menu .tabbar-menu-page.paginationActive {font-weight: bold;}
+@media screen and (max-width: 480px) {
+    .tabbar:not(.js) .tabbar-menu {display: none;}
+    .tabbar.js .tabbar-menu .tabbar-menu-page {display: none;}
+}

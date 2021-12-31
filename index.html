@@ -1,48 +1,754 @@
-<head>
-    <title>Vladut Margineanu</title>
-    <link rel="stylesheet" href="index.css" />
-</head>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Vlăduț Mărgineanu - Software Developer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-<body>
-    <main>
-        <img class="my-photo" src="./profile.jpg" />
-        <div class="column centered">
-            <h1>Vladut Margineanu</h1>
-            <h2>Software Engineer</h2>
-            <h3>Hey 👋 I am Vladut Margineanu, a passionate Computer Science Engineer. </h3>
-            <div class="row">
-                <a class="button" href="mailto:vladut.margineanu@gmail.com">
-                    <img class="img2" src="envelope.svg" alt="" />
-                </a>
-                <a class="button" href="https://github.com/vladutmargineanu">
-                    <img class="img2" src="github.svg" alt="" />
-                </a>
-                <a class="button" href="https://www.linkedin.com/in/vladutmargineanu/">
-                    <img class="img2" src="linkedin.svg" alt="" />
-                </a>
-                <a class="button" href="https://www.instagram.com/vladutmargineanu/">
-                    <img class="img2" src="iconmonstr-instagram-11.svg" alt="" />
-                </a>
-                <a class="button" href="https://twitter.com/vladutmg/">
-                    <img class="img2" src="iconmonstr-twitter-1.svg" alt="" />
-            </div>
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-            <div>
-                </a>
-                <h4>If you like what I do, maybe consider buying me a coffee! 🥺👉👈</h4>
-                <a href="https://www.buymeacoffee.com/margineanu" target="_blank"><img
-                        src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60px"
-                        width="217px">
-                </a>
-            </div>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
 
-            <div class="footer">
-                <p>Copyright &copy;
-                    <script>document.write(new Date().getFullYear())</script> Vladut Margineanu - All Rights Reserved
-                </p>
-            </div>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Paging  -->
+	<link rel="stylesheet" href="css/paging.css">
 
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-        </div>
-    </main>
-</body>
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/profile.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Vlăduț Mărgineanu</a></h1>
+				<span class="position"><a href="#">Software Developer</a> in Romania</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="services">Services</a></li>
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<!-- <li><a href="#" data-nav-section="work">Work</a></li> -->
+						<!-- <li><a href="#" data-nav-section="blog">Blog</a></li> -->
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="colorlib-footer">
+				<ul>
+					<li><a target="_blank" href="https://github.com/vladutmargineanu"><i class="icon-github"></i></a></li>
+					<li><a target="_blank" href="https://twitter.com/vladutmg"><i class="icon-social-twitter"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/vladutmargineanu/"><i class="icon-instagram"></i></a></li>
+					<li><a target="_blank" href="https://www.linkedin.com/in/vladutmargineanu/"><i class="icon-linkedin2"></i></a></li>
+					<li><a target="_blank" href="https://open.spotify.com/user/ci765jpew7plkqtsbgcwkra9s?si=9015587f20aa4e52"><i class="icon-spotify"></i></a></li>
+					<li><a target="_blank" href="https://www.twitch.tv/vladutmargineanu?sr=a"><i class="icon-twitch"></i></a></li>
+				</ul>
+			</div>
+
+			<div>
+				<div class="colorlib-footer">
+					<p><small>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						&copy; Copyright &copy;
+						<script>document.write(new Date().getFullYear());</script> 
+						Vlăduț Mărgineanu - All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a target="_blank" href="https://colorlib.com" target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> 
+					</small></p>
+				</div>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<!-- region HOME -->
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/background.png);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi! <br>I'm Vlăduț.</h1>
+											<p><a target="_blank" class="btn btn-success" href="assets\CV_Margineanu_Vladut.pdf" download>Download CV <i class="icon-download4"></i></a></p>
+										</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+			<!-- endregion HOME -->
+
+			<!-- region ABOUT -->
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi! I'm Vlăduț.</strong> 
+										<p>I'm enthusiastic about technology, software and design.
+										<br>Right now I'm working as a Software Developer using Spring Framework, Spring Boot, Angular.
+										<br>Passionate about Java, TypeScript, Python.
+									</div>
+								</div>
+							</div>
+							<div class="row animate-box">
+								<div class="col-md-3" data-animate-effect="fadeInLeft">
+									<div class="services color-4">
+										<span class="icon2"><i class="icon-github"></i></span>
+										<h3>GitHub<br><br></h3>
+									</div>
+								</div>
+								<div class="col-md-3" data-animate-effect="fadeInLeft">
+									<div class="services color-5">
+										<span class="icon2"><i class="icon-leaf"></i></span>
+										<h3>Nature<br><br></h3>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="services color-3">
+										<span class="icon2"><i class="icon-photo"></i></span>
+										<h3>Photography<br><br></h3>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="services color-1">
+										<span class="icon2"><i class="icon-globe"></i></span>
+										<h3>Travel<br><br></h3>
+									</div>
+								</div>
+							</div>
+							<!-- region BIG BOX -->
+							<!-- 
+							<div class="row">
+								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+									<div class="hire">
+										<h2>I am happy to know you <br>that 300+ projects done sucessfully!</h2>
+										<a href="#" class="btn-hire">Hire me</a>
+									</div>
+								</div>
+							</div> 
+							-->
+							<!-- endregion BIG BOX -->
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion ABOUT -->
+			
+			<!-- region SERVICES -->
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Services</span>
+							<h2 class="colorlib-heading">What do I do?</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md animate-box">
+						<div class="col-md-4 text-center ">
+							<div class="services color-5">
+								<span class="icon">
+									<i class="icon-chrome"></i>
+								</span>
+								<div class="desc">
+									<h3>App Development</h3>
+									<p>I'm at my best while developing web app.<br><br></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center">
+							<div class="services color-2">
+								<span class="icon">
+									<i class="icon-pen2"></i>
+								</span>
+								<div class="desc">
+									<h3>App Design</h3>
+									<p>I'm still learning, but I can help when a designer is not around.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Deploy & Maintenance</h3>
+									<p>Continuous Integration, Continuous Delivery and Continuous Deployment.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+								<div class="desc">
+									<h3>Testing</h3>
+									<p>A good app needs testing. <br><br><br></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion SERVICES -->
+
+			<!-- region SKILLS -->
+			<section class="colorlib-skills" data-section="skills">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Skills</span>
+							<h2 class="colorlib-heading">My knowledge stack</h2>
+						</div>
+					</div>
+					<div class="row animate-box">
+						<div class="col-md-12 ">
+							<p>
+								My usual stack of technologies for App Development is Java with SpringBoot and TypeScript with Angular.
+								<br>The usual architectural pattern I use is MVC.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>Java</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>Angular</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+								    <span>70%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>SpringBoot</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="75"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+								    <span>75%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>SQL</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="50"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:50%">
+								    <span>50%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>TypeScript</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
+								    <span>65%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>Python</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
+								    <span>60%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>C++/C</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="70"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:40%">
+								    <span>40%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="progress-wrap">
+								<h3>Git</h3>
+								<div class="progress">
+								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="80"
+								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+								    <span>80%</span>
+								  	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion SKILLS -->
+
+			<!-- region EDUCATION -->
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+														Master of Science in Management of Information Technology
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+												<div class="row">
+													<div class="col-md-6">
+														<p><b>2021-Ongoing</b></p>
+														<p>
+															University Politehnica of Bucharest
+															<br>
+															<b>Faculty of Automatic Control and Computer Science</b>
+														</p>
+													</div>
+													<div class="col-md-6">
+														<p>Diploma Project:
+															<b>Electronic Signature Management in an Organization</b>
+														</p>
+													</div>
+												</div>
+											</div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													Bachelor of Science in Computer Science and Information Technology
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body"><div class="row">
+												<div class="col-md-6">
+													<p><b>2017-2021</b></p>
+													<p>
+														University Politehnica of Bucharest
+														<br>
+														<b>Faculty of Automatic Control and Computer Science</b>
+													</p>
+												</div>
+												<div class="col-md-6">
+													<p>Diploma Project:
+														<b>Role-playing game for learning</b>
+													</p>
+												</div>
+									        </div>
+									    </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- endregion EDUCATION -->
+
+			<!-- region WORK EXPERIENCE -->
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				        <div class="timeline-centered">
+					        <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+									<div class="timeline-icon color-2">
+					                	<i class="icon-pen2"></i>
+					               	</div>
+
+					               	<div class="timeline-label">
+									<h2><a href="#">Software Developer</a> <span>September 2021 - Ongoing</span></h2>
+									<p><b>Accenture</b></p>
+									<ul>
+										<li> Participated in complete development cycles related to
+										the launch of new features, from proper analysis, planning,
+										development, testing and enhancement of the
+										code.</li>
+										<li> Implemented new features using Spring Framework,
+										Spring Boot, Spring Data JPA, Spring MVC, Spring REST,
+										Spring AOP, Hibernate CRUD,Web Services, Angular.</li>
+										<li> Programming languages used:Java and TypeScript. IDEs:
+										IntelliJIdea and Visual Studio Code.</li>
+										<li>Well-acquainted with tools as: Postman, Maven, Bitbucket,
+										Jenkins, Oracle SQL Developer, npm, Git Code
+										Management.</li>
+									</ul>
+					            </div>
+					        </article>
+
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               	<div class="timeline-icon color-3">
+					                	<i class="icon-pen2"></i>
+									   </div>
+									   
+					            	<div class="timeline-label">
+					               	<h2><a href="#">QA Automation Engineer</a> <span class="text-right">January - August 2021</span></h2>
+									<p><b>Aurachain</b></p>
+									<ul>
+										<li>Automate test cases, maintain them and report results.
+										Analyze Continuous integration/Continuous development
+										pipelines.</li>
+										<li>Programming languages Java and Python. IDEs: IntelliJ
+										Idea and PyCharm. Unit testing frameworks and tools:
+										JUnit, TestNG, SeleniumWebDriver.</li>
+										<li>Well-acquainted with tools as: Postman, Maven, Bitbucket,
+										CircleCi, Jira, Docker, Kubernetes.</li>
+									</ul>
+					               </div>
+					            </div>
+					         </article>
+
+							<article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+								<div class="timeline-entry-inner">
+									<div class="timeline-icon color-1">
+										<i class="icon-pen2"></i>
+									</div>
+							
+									<div class="timeline-label">
+										<h2><a href="#">Digital Identity Apprentice - Internship</a> <span class="text-right">July - September 2020</span></h2>
+										<p><b>IT Smart Systems</b></p>
+										<ul>
+											<li>Foundation for the design, configuration and administration
+											of ForgeRock Access and Identity Management -
+											solutions on Digital Identity using Oauth2 and OIDC.</li>
+											<li>Implemented, customized and deployed in a containerized
+											environment the ForgeRock Identity Platform.</li>
+											<li>Well-acquainted with tools as: Postman, Maven, Jenkins,
+											Jira, Docker, Kubernetes, Minikube. IDEs: IntelliJ Idea -
+											Java JDK.</li>
+										</ul>
+									</div>
+								</div>
+							</article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+			<!-- endregion WORK EXPERIENCE -->
+
+			<!-- region PROJECTS -->
+			<!-- <section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Work</span>
+							<h2 class="colorlib-heading">Recent Work</h2>
+						</div>
+					</div>
+					<div class="tabbar animate-box">
+						<div class="tabbar-menu row row-bottom-padded-sm">
+							<div class="col-md-12">
+								<p class="work-menu">
+									<span id="work1"><a class="tabbar-menu-page active" href="#work1">Personal</a></span> 
+									<span id="work2"><a class="tabbar-menu-page" href="#work2">Work</a></span>
+								</p>
+							</div>
+						</div>
+							<div class="tabbar-content">
+							<div class="tabbar-page row" id="work2">
+								<div class="col-md-6">
+									<div class="project" style="background-image: url(images/proj-gp-bo.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="https://greenerpastures.dk/losninger/beosound-moment-v-2">B&O BeoSound Moment v2</a></h3>
+												<span>Android software to control your music collection through B&O equipment</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> JellyBean (4.1 / SDK 16)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="project" style="background-image: url(images/proj-gp-tekniq.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="https://greenerpastures.dk/losninger/tekniq-app">Tekniq</a></h3>
+												<span>Cross-Platform (Xamarin Forms) App with Firebase backend</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Xamarin</a></span>
+													<span><a><i class="icon-data"></i> Firebase</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="project" style="background-image: url(images/proj-gp-coop.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="https://greenerpastures.dk/losninger/coopmedlem">Coop Medlem</a></h3>
+												<span>Membership app for supermarket chain that won multiple awards.</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java / Kotlin</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="project" style="background-image: url(images/proj-gp-brobizz.jpg);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="https://greenerpastures.dk/losninger/brobizz">BroBizz</a></h3>
+												<span>Automated payment for tolls on bridges, ferries, roads and more.</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (5.0 / SDK 21)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Kotlin</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabbar-page row" id="work1">
+								<div class="col-md-6">
+									<div class="project" style="background-image: url(images/proj-me-bikla.png);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="./proj/bikla.html">Bikla</a></h3>
+												<span>Bike Renting platform that entered the final rounds at Innovation Labs 2016</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="project" style="background-image: url(images/proj-me-carbon.png);">
+										<div class="desc">
+											<div class="con">
+												<h3><a target="_blank" href="./proj/carbon.html">Carbon</a></h3>
+												<span>Android App for Spaced Repetition Learning (Thesis Diploma Project)</span>
+												<p class="icon">
+													<span><a><i class="icon-android"></i> KitKat (4.4 / SDK 19)</a></span>
+													<br>
+													<span><a><i class="icon-code"></i> Java</a></span>
+													<span><a><i class="icon-link"></i> RxJava</a></span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<!-- region PROJECTS > MORE -->
+					<!-- <div class="row">
+						<div class="col-md-12 animate-box">
+							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
+						</div>
+					</div> -->
+					<!-- endregion PROJECTS > MORE -->
+				<!-- </div>
+			</section> -->
+			<!-- endregion PROJECTS -->
+
+			<!-- region CONTACT -->
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Contact</span>
+							<h2 class="colorlib-heading">Get in Touch</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5 animate-box">
+							<div class="colorlib-feature colorlib-feature-sm " >
+								<div class="colorlib-icon">
+									<i class="icon-social-at-circular"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:vladut.margineanu@gmail.com">vladut.margineanu@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm">
+								<div class="colorlib-icon">
+									<i class="icon-social-facebook"></i>
+								</div>
+								<div class="colorlib-text">
+									<a target="_blank" href="https://m.me/vladutmargineanu">Facebook Messenger: @vladutmargineanu</a>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>Bucharest, Romania</p>
+								</div>
+							</div>
+
+						</div>
+						<!-- region EMAIL FORM -->
+						<!-- <div class="col-md-7 col-md-push-1">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
+									<form action="">
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Name">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="text" class="form-control" placeholder="Subject">
+										</div>
+										<div class="form-group">
+											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+										</div>
+										<div class="form-group">
+											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div> -->
+						<!-- endregion EMAIL FORM -->
+					</div>
+				</div>
+			</section>
+			<!-- endregion CONTACT -->
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Pagination -->
+	<script src="js/jquery.paging.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
